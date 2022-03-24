@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100wh;
+    height: 100vh;
+}
+#root{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.App{    
+    width: 100%;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    font-weight: 800;
+    box-shadow: 1px  1px 5px;
+}
+.header:hover{
+    background-color: rgba(240, 240, 240, 0.5);
+}
+.header .navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    padding: 13px 5px 5px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    transition: 100 ms ease-in;
+}
+.header .navbar a:hover{
+    box-shadow: 0px 1px gray;
+    border-bottom: 1px solid black;
+}
+.employeeslist{
+    margin-top: 50px;
+}
+.employeeslist table{
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+}
+.employeeslist table th, td{
+    padding: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 100;
+}
+.employeeslist th{
+    background-color: gray;
+    color: white;
+}
+.employeeslist table tr:hover{
+    background-color: rgba(200, 200, 200, 0.3);
+}
+.employeeslist tr{
+    border-bottom: 1px solid black;
+}
+.employeeslist table .editbtn, .deletebtn{
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+}
+.employeeslist .deletebtn{
+    border: none;
+    cursor: pointer;
+}
+.addemployee{
+    width: 75%;
+    text-align: center;
+    margin: 50px auto auto;
+}
+.addemployee h3{
+    padding: 20px;
+    font-size: 25px;
+}
+.addemployee form{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+.addemployee form label{
+    padding: 20px 0px;
+}
+.addemployee form input{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+.addemployee form .addbtn{
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px auto;
+
+}

@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "Virat Kholi",
+      "designation": "vk@18@gmail.com",
+      "mailId": "Software developer",
+      "id": 1
+    },
+    {
+      "name": "M.S Dhoni",
+      "designation": "senior software develooper",
+      "mailId": "msd@07@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Rohit Sharma",
+      "designation": "junior developer",
+      "mailId": "rohit@gmail.com",
+      "id": 3
+    }
+  ]
+}

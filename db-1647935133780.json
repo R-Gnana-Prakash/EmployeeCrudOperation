@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "name": "virat kholi",
+      "designation": "Software developer",
+      "mail": "vk@18.gamil.com",
+      "salary": "5 LPA",
+      "id": 1
+    },
+    {
+      "name": "M.S Dhoni",
+      "designation": "Senior software developer",
+      "mail": "msdhoni@07.gamil.com",
+      "salary": "7 LPA",
+      "id": 2
+    },
+    {
+      "name": "Rohit sharma",
+      "designation": "web developer",
+      "mail": "rohit@45.gamil.com",
+      "salary": "4.5 LPA",
+      "id": 3
+    },
+    {
+      "name": "K.L Rahul",
+      "designation": "Junior software developer",
+      "mail": "klrahul@18.gamil.com",
+      "salary": "3 LPA",
+      "id": 4
+    }
+  ]
+}
