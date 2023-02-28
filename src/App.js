@@ -5,7 +5,7 @@ import EditEmployee from './components/EditEmployee';
 import EmployeesList from './components/EmployeesList';
 import Header from './components/Header';
 import useFetch from './components/useFetch';
-
+import NotFound from './components/NotFound';
 
 
 
@@ -30,8 +30,12 @@ function App() {
                 <Route path="/edit/:id">
                   <EditEmployee />
                 </Route>
+                <Route path='*'>
+                  <NotFound />
+                </Route>
             </Switch>
         </div>
+        
       </Router>
   );
 }
