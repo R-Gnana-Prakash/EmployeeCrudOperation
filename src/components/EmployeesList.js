@@ -10,6 +10,8 @@ const EmployeesList = (props) => {
         })
         .then(() => {
             console.log("this employee details are deleted successfully");
+        }).catch(() => {
+            console.log('something went wrong')
         })
     };
 
