@@ -25,9 +25,10 @@ const EditEmployee = () => {
         setEmployee(response.data);
     }
 
-    const editEmployeeDetails = async() => {
-        const response = await editDetails(id, employee);
-        history.go(-1);
+    const editEmployeeDetails = () => {
+        editDetails(id, employee).then(() => {
+            history.replace('/');
+        });
     }
 
     const onValueChange = (e) => {
