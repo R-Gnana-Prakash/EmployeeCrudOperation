@@ -33,7 +33,7 @@ const EmployeesList = (props) => {
                         <td>{employee.name}</td>
                         <td>{employee.designation}</td>
                         <td>{employee.mailId}</td>
-                        <td><Link to={`/edit/${employee.id}`} className="editbtn">edit</Link> <button onClick={() => {handleDelete(employee.id)}} className="deletebtn">delete</button></td>
+                        <td><Link to={`/edit/${employee.id}`} className="editbtn">update</Link> <button onClick={() => {handleDelete(employee.id)}} className="deletebtn">delete</button></td>
                     </tr>
                     )
                 })}
